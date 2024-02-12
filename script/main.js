@@ -1,4 +1,4 @@
-const APP_ID = 'cd8ea602b9ea43d5bdecbcca8eef71b3';
+const APP_ID = 'App ID';
 const token = null;
 
 let localStream;

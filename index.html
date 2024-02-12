@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Video app</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/main.css'>
+</head>
+</head>
+<body>
+    <div class="videos">
+        <video class="video-player" id="user-1" autoplay playsinline></video>
+        <video class="video-player" id="user-2" autoplay playsinline></video>
+    </div>
+    <div class="controls">
+        <div class="control-container" id="video-btn">
+            <img src="icons/camera.png" alt="camera">
+        </div>
+        <div class="control-container" id="audio-btn">
+            <img src="icons/mic.png" alt="mic">
+        </div>
+        <a href="lobby.html">
+            <div class="control-container" id="leave-btn">
+                <img src="icons/phone.png" alt="leave">
+            </div>
+        </a>
+    </div>
+</body>
+<script src='agora-rtm-sdk-1.4.4.js'></script>
+<script src="script/helper.js"></script>
+<script src="script/main.js"></script>
+</html>
